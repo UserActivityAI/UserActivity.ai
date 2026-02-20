@@ -1,0 +1,16 @@
+{
+  "name": "useractivity",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.29.3",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "dev:marketing": "pnpm --filter @useractivity/marketing dev"
+  },
+  "devDependencies": {
+    "turbo": "^2.4.0",
+    "typescript": "^5.8.3"
+  }
+}
